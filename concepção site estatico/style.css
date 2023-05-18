@@ -1,0 +1,213 @@
+
+.navbar{
+    height: 100px;
+    border-top: 10px solid rgba(255, 0, 0, 0.842);
+    position: relative;
+}
+
+.nav-link{
+    margin-left: 90px;
+}
+
+.nav-logo{
+    width: 80px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    cursor: pointer;
+}
+
+.nav-link{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:large;
+}
+
+
+.carousel-item{
+    height: 400pt;
+}
+
+.d-block{
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.personal-content{
+    height: 1310pt;
+    padding-top: 80px;
+}
+
+.content-video{
+    object-fit: cover;
+    width: 100%;
+    height: 400pt;
+}
+
+iframe{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.personal-text{
+    margin-top: 40px;
+    padding-top: 40px;
+    height: 700px;
+}
+
+.h1-personal{
+    margin-bottom: 30px;
+    margin-top: 40px;
+    width: 40%;
+    height: 70px;
+    border-bottom: 10px solid rgba(255, 0, 0, 0.842);
+}
+
+
+.image-resume{
+    display: inline-block;
+    margin-right: 30px;
+    margin-top: 20px;
+    width: 320px;
+    height: 230px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-more{
+    width: 75px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .image-resume{
+        display: inline-block;
+        margin-right: 30px;
+        margin-top: 20px;
+        width: 275px;
+        height: 230px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .banner-last{
+        margin-top: 100px;
+        background-color: red;
+        width: 100%;
+        height: 200px;
+        background-color: rgba(33, 137, 223, 0.527);
+    }
+    
+  }
+
+  @media screen and (min-width:991px) {
+    .navbar-toggler-icon{
+        display: none;
+    }
+  }
+
+  @media screen and (max-width:991px) {
+    .image-resume{
+        display: inline-block;
+        margin-right: 30px;
+        margin-top: 20px;
+        width: 195px;
+        height: 195px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .h1-personal{
+        margin-bottom: 30px;
+        margin-top: 40px;
+        width: 40%;
+        height: 110px;
+        border-bottom: 10px solid rgba(255, 0, 0, 0.842);
+    }
+    #h1-formobile{
+        margin-bottom: 30px;
+        margin-top: 40px;
+        width: 40%;
+        height: 80px;
+        border-bottom: 10px solid rgba(255, 0, 0, 0.842);
+    }
+
+    .banner-last{
+        margin-top: 250px;
+        background-color: red;
+        width: 100%;
+        height: 200px;
+        background-color: rgba(33, 137, 223, 0.527);
+    }
+
+    .nav-logo{
+        width: 80px;
+        position: absolute;
+        left: 80%;
+        top: 10%;
+        cursor: pointer;
+    }
+
+    .collapse{
+        background-color: #fff;
+        position: fixed;
+        z-index: 1;
+        top: 10px;
+        height: 400px;
+        width: 150px;
+        text-align: left;
+    }
+
+    .navbar-toggler-icon{
+        left: 10%;
+        position: fixed;
+        z-index: 2;
+        width: 15px;
+        border: none;
+    }
+
+    .nav-link{
+        margin-left: 10px;
+        margin-top: 20pt;
+    }
+
+    
+}
+
+.banner-last{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    background-color: rgba(33, 137, 223, 0.527);
+}
+
+
+
+.control-contact{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.form-contact{
+    width: 49%;
+    height: 400px;
+
+    margin-top: 100px;
+
+}
+
+.contact{
+    margin-left: 2%;
+    width: 49%;
+
+    height: 400px;
+    margin-top: 100px;
+    text-align: center;
+    color: black;
+}
+
+.contact h1{
+    color: lightseagreen;
+}
