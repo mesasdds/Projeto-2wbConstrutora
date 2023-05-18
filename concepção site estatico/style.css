@@ -102,12 +102,6 @@ iframe{
     
   }
 
-  @media screen and (min-width:991px) {
-    .navbar-toggler-icon{
-        display: none;
-    }
-  }
-
   @media screen and (max-width:991px) {
     .image-resume{
         display: inline-block;
